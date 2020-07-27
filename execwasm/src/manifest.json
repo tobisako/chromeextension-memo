@@ -1,0 +1,12 @@
+{
+  "name": "wasmextension",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "128": "kani_128.png"
+  },
+  "web_accessible_resources": ["kani3_scripts.bundle.js"]
+}
